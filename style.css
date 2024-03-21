@@ -1,0 +1,28 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 0;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  background-color: olive;
+  color: white;
+  margin: 0;
+}
+
+.box {
+  margin: 200px auto;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: all 0.5s linear;
+}
+
+.box:hover {
+  border-radius: 50%;
+  background-color: olive;
+}
